@@ -1,8 +1,8 @@
 <?php
-$dbname='REA';
-$usuario='myke1';
-$password='';
-$localhost='localhost';
+$dbname='heroku_7379346df1b396c';
+$usuario='b5270006d6b693';
+$password='5a57ec9b';
+$localhost='us-cdbr-east-05.cleardb.net';
 
 //Passo 1 - Conecta ao servidor MySQL
 if(!($id = mysqli_connect($localhost,$usuario,$password,$dbname))) {
