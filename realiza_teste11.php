@@ -61,8 +61,7 @@ error_reporting(0);
                 <div class="line"></div>  <!-- Dividing line -->
                 
                 <div class="article" id="article1"> 
-                <h3 align="center"><b>Instructions <BR><BR> <?php echo "Hello, ". $numero . ".  ";?> Think about what happens most often. Please, for each question, check one of the alternatives and do not leave any item unanswered. </b></h3>
-                
+                <h3 align="center"><b>Intruções <BR><BR> <?php echo "Olá, ". $numero . ".  ";?> Por favor, para cada pergunta, marque entre uma das alternativas e não deixe nenhum item sem resposta. </b> </h3>
             <div align="center"></div></td>
         </tr>
         <tr> 
