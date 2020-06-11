@@ -77,8 +77,7 @@
 				While: <a target="_blank" href="https://www.youtube.com/watch?v=rCFh-tvoXIc"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/o-comando-while-em-c/"> Tutorial com Diagramas </a><br />
 				For: <a target="_blank" href="https://www.youtube.com/watch?v=lRuQ8S-jXcY0"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/"> Tutorial com Diagramas </a> <br />
 				Vetores: <a target="_blank" href="https://www.youtube.com/watch?v=saH9wHeo5u0"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/"> Tutorial com Diagramas</a><br /><br />
-		    Se preferir, aqui está disponível um link com um livro completo de Algoritmos. Basta clicar <a target="_blank" href="https://docs.google.com/file/d/0ByLDgIKIkMi2MTc0MDJmOWItNTQ1Yy00NTczLWI0OTQtNjA1NDI5YTllYzZm/edit?hl=en"> aqui </a>.<br/><br>
-               
+		    
                          <form>
 					<input type="button" value="Voltar" onClick="JavaScript: window.history.back();">
 				</form>   
