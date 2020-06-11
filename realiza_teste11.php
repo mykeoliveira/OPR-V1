@@ -212,7 +212,7 @@ if($erros == 0)
    } //fecha $erros == 0
 else
    {
-   echo "<div align=center><font face=Arial size=2><b>ATENTION!</b><br><br>You left a question blank. <br> Please click <b>Back</b> to continue filling out the quiz. 
+   echo "<div align=center><font face=Arial size=2><b>ATENÇÃO!</b><br><br>Você deixou uma questão em branco.<br> Por favor, clique em Voltar para refazer o teste. 
          
          <br><br><a href='javascript:history.go(-1)'><< Back</a></font></div><br><br>";
    }//fecha else
@@ -234,7 +234,8 @@ if($_GET['acao']  == 'entrar')
 	    
         <tr> 
                 <td colspan="3"> <div align="center">
-                <h3 align="center"><b>After answering all questions, click the Confirm button. </b></h3>
+                <h3 align="center"><b>Ap&oacute;s responder a todas 
+                      as quest&otilde;es, clique no bot&atilde;o Confirmar.</b></h3>
                     <p><font size="2" face="Arial">---------------------------------------------------------------------------------------------------------------------------------</font></p>
                   </div></td>
         </tr>
