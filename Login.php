@@ -49,7 +49,7 @@
                                 <tr>
 
                             <h3 align="center"><b>Dados Pessoais</b></h3><br>
-                                <td width="48">Nome de usuário:</td>
+                                <td width="70">Nome de usuário:</td>
                                 <td width="105"><input type="text" name="login" size="15" maxlength="20" /></td>
                                 </tr> 
                                 <tr>
