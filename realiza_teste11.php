@@ -61,8 +61,7 @@ error_reporting(0);
                 <div class="line"></div>  <!-- Dividing line -->
                 
                 <div class="article" id="article1"> 
-                <h3 align="center"><b>Instructions <BR><BR> <?php echo "Hello, ". $numero . ".  ";?> Think about what happens most often. Please, for each question, check one of the alternatives and do not leave any item unanswered. </b></h3>
-                
+                <h3 align="center"><b>Intruções <BR><BR> <?php echo "Olá, ". $numero . ".  ";?> Por favor, para cada pergunta, marque entre uma das alternativas e não deixe nenhum item sem resposta. </b> </h3>
             <div align="center"></div></td>
         </tr>
         <tr> 
@@ -212,7 +211,7 @@ if($erros == 0)
    } //fecha $erros == 0
 else
    {
-   echo "<div align=center><font face=Arial size=2><b>ATENTION!</b><br><br>You left a question blank. <br> Please click <b>Back</b> to continue filling out the quiz. 
+   echo "<div align=center><font face=Arial size=2><b>ATENÇÃO!</b><br><br>Você deixou uma questão em branco.<br> Por favor, clique em Voltar para refazer o teste. 
          
          <br><br><a href='javascript:history.go(-1)'><< Back</a></font></div><br><br>";
    }//fecha else
@@ -234,7 +233,8 @@ if($_GET['acao']  == 'entrar')
 	    
         <tr> 
                 <td colspan="3"> <div align="center">
-                <h3 align="center"><b>After answering all questions, click the Confirm button. </b></h3>
+                <h3 align="center"><b>Ap&oacute;s responder a todas 
+                      as quest&otilde;es, clique no bot&atilde;o Confirmar.</b></h3>
                     <p><font size="2" face="Arial">---------------------------------------------------------------------------------------------------------------------------------</font></p>
                   </div></td>
         </tr>
@@ -243,31 +243,31 @@ if($_GET['acao']  == 'entrar')
           <td colspan="3"> <div align="center"> 
               <table width="560" border="0" cellspacing="0" cellpadding="5">
                     <tr> 
-                      <td width="98%" height="25"><p><font face="Times" size="3">1 - I find it difficult to create something original. </font>
+                      <td width="98%" height="25"><p><font face="Times" size="3">1 - Eu considero difícil criar algo original. </font>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="um" value="0.51">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="um" value="2.2541">
-                          Disagree 
+                          Discordo 
                            
                           <input type="radio" name="um" value="3.3121">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="um" value="4.4211">
-                          Strongly Agree</font></p>
+                          Concordo Totalmente</font></p>
                         <p><font size="2" face="Arial">---------------------------------------------------------------------------------------------------------------------------------</font></p></td>
                     </tr>
                     <tr> 
-                      <td height="25"><p align="justify"><font face="Times" size="3">2 - In many situations, I am not an attentive person, because I am in a hurry. </font></p>
+                      <td height="25"><p align="justify"><font face="Times" size="3">2 - Em muitas situações, eu não sou uma pessoa atenta, porque sou apressado. </font></p>
                         <p> <font face="Times" size="3"> 
-                          <input type="radio" name="dois" value="0.5917">
-                          Strongly Disagree 
+                         <input type="radio" name="dois" value="0.5917">
+                          Discordo Totalmente 
                           <input type="radio" name="dois" value="2.254927">
-                          Disagree 
+                          Discordo 
                            
                           <input type="radio" name="dois" value="3.312937">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="dois" value="4.421947">
-                          Strongly Agree</font></p>
+                          Concordo Totalmente</font></p>
 						
 						
 						
@@ -277,18 +277,19 @@ if($_GET['acao']  == 'entrar')
                           </font></p></td>
                     </tr>
                     <tr> 
-                      <td height="25"><p align="justify"><font face="Times" size="3">3 - Usually, I follow the guidelines given without question. </font></p>
+                      <td height="25"><p align="justify"><font face="Times" size="3">3 - Comumente, eu sigo as orientações dadas sem questionar. </font></p>
                         
 						<p> <font face="Times" size="3"> 
                           <input type="radio" name="tres" value="0.52">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="tres" value="2.2542">
-                          Disagree 
+                          Discordo 
                           
                           <input type="radio" name="tres" value="3.3122">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="tres" value="4.4212">
-                          Strongly Agree </font></p>
+                          Concordo Totalmente</font></p>
+						
 						
 						
 						
@@ -299,18 +300,18 @@ if($_GET['acao']  == 'entrar')
 						  ></td>
                     </tr>
                     <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">4 - I am a very attentive and organized person. </font> </p> 
+                      <td height="25"><div align="justify"><font face="Times" size="3">4 - Eu sou uma pessoa muito atenta e organizada. </font> </p> 
                         </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="quatro" value="0.5915">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="quatro" value="2.254925">
-                          Disagree 
+                          Discordo 
                           
                           <input type="radio" name="quatro" value="3.312935">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="quatro" value="4.421945">
-                          Strongly Agree</font></p> 
+                          Concordo Totalmente</font></p> 
 						
 						
 						
@@ -321,17 +322,17 @@ if($_GET['acao']  == 'entrar')
 						  ></td>
                     </tr>
                     <tr> 
-                      <td height="25"><font face="Times" size="3">5 - In general, I don't usually think much to allocate my time. </font> 
+                      <td height="25"><font face="Times" size="3">5 - Em geral, eu não costumo pensar muito para distribuir o meu tempo. </font> 
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="cinco" value="0.598">
-                          Strongly Disagree
+                          Discordo Totalmente 
                           <input type="radio" name="cinco" value="2.254928">
-                          Disagree 
+                          Discordo 
                           
                           <input type="radio" name="cinco" value="3.312938">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="cinco" value="4.421948">
-                          Strongly Agree</font></p> 
+                          Concordo Totalmente</font></p> 
 						
 						
 						
@@ -343,17 +344,17 @@ if($_GET['acao']  == 'entrar')
 						
                     </tr>
                     <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3"> 6 - When performing a task, I prefer to use a step-by-step process, working with small amounts of data at a time. </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3"> 6 - Ao realizar uma tarefa, prefiro usar um processo passo-a-passo, trabalhando com pequenas quantidades de dados de cada vez. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
-                          <input type="radio" name="seis" value="0.59">
-                          Strongly Disagree
+                         <input type="radio" name="seis" value="0.59">
+                          Discordo Totalmente 
                           <input type="radio" name="seis" value="2.2549">
-                          Disagree
+                          Discordo 
                          
                           <input type="radio" name="seis" value="3.3129">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="seis" value="4.4219">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>   
 						
 						
 						
@@ -362,17 +363,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">7 - In general, I accept the established rules. </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">7 - Em geral, eu aceito as regras estabelecidas. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="sete" value="0.53">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="sete" value="2.2543">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="sete" value="3.3123">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="sete" value="4.4213">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p> 
 						
 						
 						
@@ -381,17 +382,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">8 - I pay more attention to the small informational elements of a study or work material. </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">8 - Eu dou mais atenção aos pequenos elementos informativos de um material de estudo ou de trabalho. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="oito" value="0.591">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="oito" value="2.25492">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="oito" value="3.31293">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="oito" value="4.42194">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p> 
 						
 						
 						
@@ -400,17 +401,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">9 - I usually emphasize the global context and not the specific aspects of the tasks I perform. </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">9 - Costumo enfatizar o contexto global e não os aspectos específicos das tarefas que realizo. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="nove" value="0.56">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="nove" value="2.2546">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="nove" value="3.3126">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="nove" value="4.4216">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -419,17 +420,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">10 - The global context of a situation is the most relevant element for decision making.  </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">10 - O contexto global de uma situação é o elemento mais relevante para a tomada de decisões. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="dez" value="0.57">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="dez" value="2.257">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="dez" value="3.3127">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="dez" value="4.4217">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -438,17 +439,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">11 - In many situations, I give answers without giving much thought to them.  </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">11 - Em muitas situações, eu dou respostas sem ponderar muito sobre elas.  </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="onze" value="0.599">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="onze" value="2.254929">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="onze" value="3.312939">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="onze" value="4.421949">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>   
 						
 						
 						
@@ -457,17 +458,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">12 - I enjoy experiencing new situations. </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">12 - Eu aprecio experenciar situações novas. </font> </p> </div>
                         <p> <font face="Times" size="3"> 
-                          <input type="radio" name="doze" value="0.54">
-                          Strongly Disagree 
+                         <input type="radio" name="doze" value="0.54">
+                          Discordo Totalmente 
                           <input type="radio" name="doze" value="2.2544">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="doze" value="3.3124">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="doze" value="4.4214">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -476,17 +477,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
            
     <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">13 - I tend to think a lot before making decisions.      </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">13 - Costumo pensar bastante antes de tomar decisões.      </font> </p> </div>
                         <p> <font face="Times" size="3"> 
-                          <input type="radio" name="treze" value="0.5917">
-                          Strongly Disagree 
+                         <input type="radio" name="treze" value="0.5917">
+                          Discordo Totalmente 
                           <input type="radio" name="treze" value="2.254927">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="treze" value="3.312937">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="treze" value="4.421947">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -495,17 +496,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
                     
                     <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">14 - When reading a text, I pay more attention to the general idea than to the informative details of it.</font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">14 - Ao ler um texto, eu presto mais atenção na idéia geral do que nos detalhes informativos do mesmo.</font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="catorze" value="0.58">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="catorze" value="2.2548">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="catorze" value="3.3128">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="catorze" value="4.4218">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -514,17 +515,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
                     
                      <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3"> 15 - I am able to formulate original and creative responses, often.  </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3"> 15 - Eu sou capaz de formular respostas originais e criativas, com frequência.   </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="quinze" value="0.55">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="quinze" value="2.2545">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="quinze" value="3.3125">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="quinze" value="4.4215">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -533,17 +534,17 @@ if($_GET['acao']  == 'entrar')
                     </tr>
                     
                     <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">16 - I usually think well before giving an answer.    </font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">16 - Eu costumo pensar bem antes de dar uma resposta.   </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="dezesseis" value="0.5918">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="dezesseis" value="2.254928">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="dezesseis" value="3.312938">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="dezesseis" value="4.421948">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -552,17 +553,18 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">17 - Faced with written material, I emphasize each topic separately and only afterwards do I seek relationships between the parties.</font> </p> </div>
+                      <td height="25"><div align="justify"><font face="Times" size="3">17 - Diante de um material escrito, eu dou ênfase a cada tópico separadamente e 
+somente depois busco relações entre as partes.</font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="dezessete" value="0.5995">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="dezessete" value="2.254926">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="dezessete" value="3.312936">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="dezessete" value="4.421946">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>  
 						
 						
 						
@@ -571,18 +573,18 @@ if($_GET['acao']  == 'entrar')
                     </tr>
 
 <tr> 
-                      <td height="25"><div align="justify"><font face="Times" size="3">18 - I enjoy daring and trying to create something different.
+                      <td height="25"><div align="justify"><font face="Times" size="3">18 - Eu aprecio ousar e tentar criar algo diferente.
      </font> </p> </div>
                         <p> <font face="Times" size="3"> 
                           <input type="radio" name="dezoito" value="0.55">
-                          Strongly Disagree 
+                          Discordo Totalmente 
                           <input type="radio" name="dezoito" value="2.2545">
-                          Disagree 
+                          Discordo 
                          
                           <input type="radio" name="dezoito" value="3.3125">
-                          Agree 
+                          Concordo 
                           <input type="radio" name="dezoito" value="4.4215">
-                          Strongly Agree</font></p>  
+                          Concordo Totalmente</font></p>   
 						
 						
 						
@@ -605,8 +607,8 @@ if($_GET['acao']  == 'entrar')
 
 	   
                     <td height="25" colspan="2"> <div align="center"> 
-                        <input type="submit" name="cadastrar" value="Confirm">
-                        <input type="reset" value="Clear" name="B2">
+                        <input type="submit" name="cadastrar" value="Confirmar">
+                        <input type="reset" value="Limpar" name="B2">
                       </div></td>
                   </table>
   </form>           

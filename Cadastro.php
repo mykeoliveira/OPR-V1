@@ -75,18 +75,18 @@
                 <div class="line"></div>  <!-- Dividing line -->
                 
                 <div class="article" id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
-                    <BR><BR><h2 align="center"><b>Registration Form</b></h2><BR><BR>
+                    <BR><BR><h2 align="center"><b>Formulário de Cadastro</b></h2><BR><BR>
 
                         <form id="cadastro" method="Post" action="conectaCadastro.php" name="cadastro" onsubmit = "return checa_formulario(this)"> 
                         
-                        <h3 align="center">Fill out the registration form to be able to access the resource.</h3>
+                        <h3 align="center">Preencha todos os campos solicitados para cadastrar um usuário de login.</h3>
                         <p>&nbsp;</p>
                         
                         <center>
                         <table height="300" cellpadding="1" cellspacing="2">
 		                <tr>
 		                <td>
-			                Name:
+			                Nome:
 		                </td>
 	                    <td>
 			                <input name="nome" id="nome" size="20" type="text">
@@ -95,7 +95,7 @@
 			
 		                <tr>
 		                <td>
-			                Username:
+			                Login:
 		                </td>
 		                <td>
 			                <input name = "login" size="20" type="text" id="login" >
@@ -103,14 +103,14 @@
 		                </tr>
 		
 		                <tr  class="ver01">
-		                <td>Pasword:</td>
+		                <td>Senha:</td>
 		                <td><input name = "senha" size="20" type="password"  id"senha1" />
                         </td>
                         </tr>
         
                         <tr>
 		                <td>
-			                Confirm Password:
+			                Confirme a senha:
 		                </td>
 		                <td>
 			                <input name = "senha2" size="20" type="password"  />
@@ -120,10 +120,10 @@
                         </table>
   
   <br><br><br>
-  <center><INPUT TYPE="submit" value="Register" id="cadastro">&nbsp;&nbsp;&nbsp;
-	<INPUT TYPE="reset" value="Clear" id="limpar"></center>
+  <center><INPUT TYPE="submit" value="Registrar" id="cadastro">&nbsp;&nbsp;&nbsp;
+	<INPUT TYPE="reset" value="Limpar" id="limpar"></center>
 	</center><BR>
- 		<a href="Login.php">Return</a>
+ 		<a href="Login.php">Retornar</a>
 	</center><BR>
 
 </form>
