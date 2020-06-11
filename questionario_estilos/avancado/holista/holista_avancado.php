@@ -70,11 +70,11 @@
 		For: <a target="_blank" href="http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/"> Tutorial com Diagramas </a> <br />
 		Vetores: <a target="_blank" href="http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/"> Tutorial com Diagramas</a><br /><br />
                 
-		    <h3>Se preferir, temos alguns livros disponíveis para ajudá-lo.</h3><br>
+		<h2>Livros</h2>
 		<br> Estudo Dirigito: Algoritmos <a target="_blank" href="https://docs.google.com/file/d/0ByLDgIKIkMi2MTc0MDJmOWItNTQ1Yy00NTczLWI0OTQtNjA1NDI5YTllYzZm/edit?hl=en"> acessar </a>.
 		<br> Linguagem C <a target="_blank" href="https://www.ime.usp.br/~slago/slago-C.pdf"> acessar </a>.
 		<br> Computação Científica em Linguagem C <a target="_blank" href="https://www.ufrgs.br/reamat/ComputacaoCientifica/livro/livro.pdf"> acessar </a>.<br>
-		    <h3><br> Temos materiais no formato de artigos também, se preferir.</h3><br>
+		    <h2>Artigos</h2>
 		<br> Estilo de código - Boas práticas de programação em linguagem C <a target="_blank" href="https://www.embarcados.com.br/boas-praticas-de-programacao-em-linguagem-c/"> acessar </a>.
 		<br> Especificações da Linguagem C <a target="_blank" href="https://www.mentebinaria.com.br/artigos/especificações-da-linguagem-c-r17/"> acessar </a><br><br>
 		    
