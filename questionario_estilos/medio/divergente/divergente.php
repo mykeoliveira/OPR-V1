@@ -59,7 +59,6 @@
                   <h2> Pseudocódigo</h2>
                   <br> Link de acesso: <a target="_blank" href="https://www.embarcados.com.br/pseudocodigo/"> Tutorial com Diagramas </a>
                   <br> Link de acesso: <a target="_blank" href="https://www.youtube.com/watch?v=PZhU0XRrleY"> Vídeo </a><br><br>
-
                  <h2>VisuAlg</h2> <br>
                  Link de acesso: <a target="_blank" href="http://www.devmedia.com.br/introducao-ao-visualg/25748">Tutorial com Diagramas </a><br />
                  Link de acesso: <a target="_blank" href="https://www.youtube.com/watch?v=XS5wkYJAY6s"> Vídeo </a><br><br>
@@ -69,14 +68,14 @@
                  
 				 <h2>Linguagem C</h2> <br />
                  Introdução a linguagem C: <a target="_blank" href="https://www.youtube.com/watch?v=tnGBpO0O7PA"> Vídeo </a><br>
-				Operadores Lógicos: <a target="_blank" href="http://www.tiexpert.net/programacao/algoritmo/operadores-logicos.php">Tutorial com Diagramas </a> <br />
-                Funções de Entrada: <a target="_blank" href="http://www.tiexpert.net/programacao/c/scanf.php"> Tutorial com Diagramas </a> <br />
-                Funções de Saída: <a target="_blank" href="http://www.tiexpert.net/programacao/c/printf.php"> Tutorial com Diagramas </a> <br />
-                Processo de atribuição à variáveis: <a target="_blank" href="http://www.tiexpert.net/programacao/c/atribuicao-de-variaveis-e-processos.php"> Tutorial com Diagramas </a> <br />
-				Estrutura if-else: <a target="_blank" href="https://www.youtube.com/watch?v=xKq2aLAflx0"> Vídeo </a>, <a target="_blank" href="http://www.tiexpert.net/programacao/c/if-else.php"> Tutorial com Diagramas </a> <br />
-				While: <a target="_blank" href="https://www.youtube.com/watch?v=rCFh-tvoXIc"> Vídeo </a>,<a target="_blank" href="http://www.tiexpert.net/programacao/c/while.php"> Tutorial com Diagramas </a><br />
-				For: <a target="_blank" href="https://www.youtube.com/watch?v=lRuQ8S-jXcY0"> Vídeo </a>,<a target="_blank" href="http://www.tiexpert.net/programacao/c/for.php"> Tutorial com Diagramas </a> <br />
-				Vetores: <a target="_blank" href="https://www.youtube.com/watch?v=saH9wHeo5u0"> Vídeo </a>,<a target="_blank" href="http://www.tiexpert.net/programacao/c/vetores.php"> Tutorial com Diagramas</a><br /><br />
+				Operadores Lógicos: <a target="_blank" href="http://mtm.ufsc.br/~azeredo/cursoC/aulas/c360.html">Tutorial com Diagramas </a> <br />
+                Funções de Entrada: <a target="_blank" href="https://pt.wikibooks.org/wiki/Programar_em_C/Entrada_e_sa%C3%ADda_simples"> Tutorial com Diagramas </a> <br />
+                Funções de Saída: <a target="_blank" href="https://pt.wikibooks.org/wiki/Programar_em_C/Entrada_e_sa%C3%ADda_simples"> Tutorial com Diagramas </a> <br />
+                Processo de atribuição à variáveis: <a target="_blank" href="http://linguagemc.com.br/variaveis-em-linguagem-c/"> Tutorial com Diagramas </a> <br />
+				Estrutura if-else: <a target="_blank" href="https://www.youtube.com/watch?v=xKq2aLAflx0"> Vídeo </a>, <a target="_blank" href="http://linguagemc.com.br/estruturas-de-decisao-encadeadas-if-else-if-else/"> Tutorial com Diagramas </a> <br />
+				While: <a target="_blank" href="https://www.youtube.com/watch?v=rCFh-tvoXIc"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/o-comando-while-em-c/"> Tutorial com Diagramas </a><br />
+				For: <a target="_blank" href="https://www.youtube.com/watch?v=lRuQ8S-jXcY0"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/"> Tutorial com Diagramas </a> <br />
+				Vetores: <a target="_blank" href="https://www.youtube.com/watch?v=saH9wHeo5u0"> Vídeo </a>,<a target="_blank" href="http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/"> Tutorial com Diagramas</a><br /><br />
                 
                          <form>
 					<input type="button" value="Voltar" onClick="JavaScript: window.history.back();">
