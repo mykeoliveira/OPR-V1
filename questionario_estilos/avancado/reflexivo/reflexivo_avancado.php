@@ -61,14 +61,14 @@
                  <h2>Teste de Mesa</h2> <br />Link de acesso: <a target="_blank" href="https://pt.slideshare.net/henriquecarmona/aula-4-teste-de-mesa">Tutorial com Diagramas </a><br /><br />
                  
 				 <h2>Linguagem C</h2> <br />
-				Operadores Lógicos: <a target="_blank" href="http://www.tiexpert.net/programacao/algoritmo/operadores-logicos.php">Tutorial com Diagramas </a> <br />
-                Funções de Entrada: <a target="_blank" href="http://www.tiexpert.net/programacao/c/scanf.php"> Tutorial com Diagramas </a> <br />
-                Funções de Saída: <a target="_blank" href="http://www.tiexpert.net/programacao/c/printf.php"> Tutorial com Diagramas </a> <br />
-                Processo de atribuição à variáveis: <a target="_blank" href="http://www.tiexpert.net/programacao/c/atribuicao-de-variaveis-e-processos.php"> Tutorial com Diagramas </a> <br />
-				Estrutura if-else: <a target="_blank" href="http://www.tiexpert.net/programacao/c/if-else.php"> Tutorial com Diagramas </a> <br />
-				While: <a target="_blank" href="http://www.tiexpert.net/programacao/c/while.php"> Tutorial com Diagramas </a><br />
-				For: <a target="_blank" href="http://www.tiexpert.net/programacao/c/for.php"> Tutorial com Diagramas </a> <br />
-				Vetores: <a target="_blank" href="http://www.tiexpert.net/programacao/c/vetores.php"> Tutorial com Diagramas</a><br /><br />
+				Operadores Lógicos: <a target="_blank" href="http://mtm.ufsc.br/~azeredo/cursoC/aulas/c360.html">Tutorial com Diagramas </a> <br />
+                Funções de Entrada: <a target="_blank" href="https://pt.wikibooks.org/wiki/Programar_em_C/Entrada_e_sa%C3%ADda_simples"> Tutorial com Diagramas </a> <br />
+                Funções de Saída: <a target="_blank" href="https://pt.wikibooks.org/wiki/Programar_em_C/Entrada_e_sa%C3%ADda_simples"> Tutorial com Diagramas </a> <br />
+                Processo de atribuição à variáveis: <a target="_blank" href="http://linguagemc.com.br/variaveis-em-linguagem-c/"> Tutorial com Diagramas </a> <br />
+				Estrutura if-else: <a target="_blank" href="http://linguagemc.com.br/estruturas-de-decisao-encadeadas-if-else-if-else/"> Tutorial com Diagramas </a> <br />
+				While: <a target="_blank" href="http://linguagemc.com.br/o-comando-while-em-c/"> Tutorial com Diagramas </a><br />
+				For: <a target="_blank" href="http://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/"> Tutorial com Diagramas </a> <br />
+				Vetores: <a target="_blank" href="http://linguagemc.com.br/vetores-ou-arrays-em-linguagem-c/"> Tutorial com Diagramas</a><br /><br />
                 
                 Se preferir, aqui está disponível um link com um livro completo de Algoritmos. Basta clicar <a target="_blank" href="https://docs.google.com/file/d/0ByLDgIKIkMi2MTc0MDJmOWItNTQ1Yy00NTczLWI0OTQtNjA1NDI5YTllYzZm/edit?hl=en"> aqui </a>.<br/><br>
                 <form>
