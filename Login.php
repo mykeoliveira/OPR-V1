@@ -45,16 +45,16 @@
                             <BR><BR><BR>  
                             <h3 align="center"><b>Acesso restrito! <br> Por favor, faça log in para acessar o recurso ou cadastre-se </b></h3>
                                 <tr>
-                                <td> <center> <table width="173" border="3"  cellpadding="3" align="center">
+                                <td> <center> <table width="220" border="2"  cellpadding="2" align="center">
                                 <tr>
 
                             <h3 align="center"><b>Dados Pessoais</b></h3><br>
-                                <td width="70">Nome de usuário:</td>
-                                <td width="105"><input type="text" name="login" size="15" maxlength="20" /></td>
+                                <td width="100">Nome de usuário:</td>
+                                <td width="110"><input type="text" name="login" size="30" maxlength="30" /></td>
                                 </tr> 
                                 <tr>
                                 <td>Senha:</td>
-                                <td><input type="password" name="senha" size="15" maxlength="8" /></td>
+                                <td><input type="password" name="senha" size="20" maxlength="8" /></td>
                                 </tr>
   
                                 <tr>
