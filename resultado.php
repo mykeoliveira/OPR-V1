@@ -77,33 +77,33 @@ if($tipos=="HOLISTA")
 {
 	
     echo "<h3>O estilo cognitivo identificado é o <b>Holista</b>.</h3><br><br> Usuários holísticos são mais proeminentes no contexto global, desde o início de uma atividade, eles preferem examinar uma vasta quantidade de informações em busca de padrões e relacionamentos entre eles. Pessoas holísticas podem resolver problemas complexos com facilidade e quase sempre são bons sintetizadores. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/holista/holista_avancado_1.php"> aqui </a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/holista/holista_medio_1.php"> aqui </a>.<?php
 }
 if($tipos=="SERIALISTA")
 {
 	
     echo "<h3>O estilo cognitivo identificado é o <b>Serialista</b>.</h3><br><br>Usuários serialistas dão mais ênfase a tópicos separados e a sequências lógicas, procurando padrões e relacionamentos no processo, para confirmar ou não suas suposições. Suas suposições são mais simples e têm uma abordagem lógico-linear (de uma suposição para a próxima etapa) passo a passo). Eles são competentes para resolver problemas e, geralmente, bons analistas. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/serialista/serialista_avancado_1.php"> aqui</a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/serialista/serialista_medio_1.php"> aqui</a>.<?php
 }
 if($tipos=="DIVERGENTE")
 {
 	echo "<h3>O estilo cognitivo identificado é o <b>Divergente</b>.</h3><br><br>Usuários divergentes são mais criativos, com respostas criativas, originais e claras. Eles preferem problemas informais, que solicitam a disseminação de várias respostas igualmente concebíveis, nas quais são destacadas na quantidade, diversidade e singularidade das respostas. Eles estão mais dispostos a resolver problemas menos estruturados. Socialmente, eles são mais impulsivos e ameaçadores. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/divergente/divergente_avancado_1.php"> aqui</a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/divergente/divergente_medio_1.php"> aqui</a>.<?php
 }
 if($tipos=="REFLEXIVO")
 {
 	echo "<h3>O estilo cognitivo identificado é o <b>Reflexivo</b>.</h3><br><br>Usuários reflexivos pensam antes de fazer qualquer coisa, como um curso, por exemplo. Eles têm os pensamentos mais organizados, sequenciados e fazem uma avaliação reflexiva antes de responder a uma resposta. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/reflexivo/reflexivo_avancado_1.php"> aqui</a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/reflexivo/reflexivo_medio_1.php"> aqui</a>.<?php
 }
 if($tipos=="CONVERGENTE")
 {
 	echo "<h3>O estilo cognitivo identificado é o <b>Convergente</b>.</h3><br><br>O estilo convergente integra teoria e prática. Usuários convergentes usam abstração e bom senso na aplicação prática de idéias e teorias, sempre buscam a melhor solução para um problema prático e gostam de resolver problemas práticos. Eles são melhores com tarefas técnicas e resolução de problemas do que com eventos sociais e interpessoais. Materiais preferidos: Esquemas e artigos. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/convergente/convergente_avancado_1.php"> aqui</a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/convergente/convergente_medio_1.php"> aqui</a>.<?php
 }
 if($tipos=="IMPULSIVO")
 {
 	echo "<h3>O estilo cognitivo identificado é o <b>Impulsivo</b>.</h3><br><br>Usuários impulsivos não organizam respostas anteriores, geralmente aceitam a primeira hipótese e oferecem soluções rápidas para os problemas. Materiais preferidos: diagramas e vídeos. ";
-    ?><br><br> Para continuar clique <a href="questionario_estilos/avancado/impulsivo/impulsivo_avancado_1.php"> aqui</a>.<?php
+    ?><br><br> Para continuar clique <a href="questionario_estilos/medio/impulsivo/impulsivo_medio_1.php"> aqui</a>.<?php
 }
 ?>
      
