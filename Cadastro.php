@@ -95,10 +95,10 @@
 			
 		                <tr>
 		                <td>
-			                Login:
+			                Login:<br> Máximo 10 dígitos
 		                </td>
 		                <td>
-			                <input name = "login" size="20" type="text" id="login" >
+			                <input name = "login" size="10" type="text" id="login" >
 		                </td>
 		                </tr>
 		
