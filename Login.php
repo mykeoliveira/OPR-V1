@@ -50,11 +50,11 @@
 
                             <h3 align="center"><b>Dados Pessoais</b></h3><br>
                                 <td width="48">Login:</td>
-       					<td width="105"><input type="text" name="login" size="15" maxlength="20" /></td>
+       					<td width="105"><input type="text" name="login" size="20" maxlength="20" /></td>
      				 </tr>
                                 <tr>
                                 <td>Senha:</td>
-                                <td><input type="password" name="senha" size="15" maxlength="20" /></td>
+                                <td><input type="password" name="senha" size="20" maxlength="20" /></td>
                                 </tr>
   
                                 <tr>
