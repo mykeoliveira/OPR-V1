@@ -104,7 +104,7 @@
 		
 		                <tr  class="ver01">
 		                <td>Senha:</td>
-		                <td><input name = "senha" size="20" type="password"  id"senha1" />
+		                <td><input name = "senha" size="20" type="password"  id="senha1" />
                         </td>
                         </tr>
         
